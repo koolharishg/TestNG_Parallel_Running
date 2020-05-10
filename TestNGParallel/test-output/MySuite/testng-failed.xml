@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MySuite]" parallel="none">
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.masti.testcases.TestNGParallel.TestD">
+        <methods>
+          <include name="Test4"/>
+        </methods>
+      </class> <!-- com.masti.testcases.TestNGParallel.TestD -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [MySuite] -->

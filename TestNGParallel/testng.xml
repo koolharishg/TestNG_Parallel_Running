@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MySuite" thread-count="3" parallel="tests">
+  <test name="TestA" thread-count="3" parallel="methods">
+    <classes>
+      <class name="com.masti.testcases.TestNGParallel.TestA"/>
+    </classes>
+   </test>
+   
+   <test name="TestB" thread-count="3" parallel="methods" >
+    <classes>
+      <class name="com.masti.testcases.TestNGParallel.TestB"/>
+    </classes>
+   </test> 
+   
+   <test name="TestC"  thread-count="3" parallel="methods">
+    <classes>
+      <class name="com.masti.testcases.TestNGParallel.TestC"/>
+    </classes>
+   </test> 
+   
+   <test name="TestD"  thread-count="3" parallel="methods">
+    <classes>
+      <class name="com.masti.testcases.TestNGParallel.TestD"/>
+    </classes>
+   </test>  
+</suite> <!-- MySuite -->
